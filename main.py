@@ -618,9 +618,9 @@ for url_link in subscription_links:
         # Retrieve subscription link content
         links_content = html_content(url_link)
         array_links_content.append((url_link, links_content))
-        if 'soroushmirzaei' not in url_link:
+        if 'ashah404' not in url_link:
             raw_array_links_content.append((url_link, links_content))
-        elif 'soroushmirzaei' in url_link and 'channels' in url_link:
+        elif 'ashah404' in url_link and 'channels' in url_link:
             channel_array_links_content.append((url_link, links_content))
     except:
         continue
@@ -1548,12 +1548,12 @@ with open("./channels/networks/grpc", "w", encoding="utf-8") as file:
 readme = '''## Introduction
 The script systematically collects Vmess, Vless, ShadowSocks, Trojan, Reality, Hysteria, Tuic, and Juicity configurations from publicly accessible Telegram channels. It categorizes these configurations based on open and closed ports, eliminates duplicate entries, resolves configuration addresses using IP addresses, and revises configuration titles to reflect server and protocol-type properties. These properties include network and security type, IP address and port, and the respective country associated with the configuration.
 
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/soroushmirzaei/telegram-configs-collector?label=Last%20Commit&color=%2338914b)
-![GitHub](https://img.shields.io/github/license/soroushmirzaei/telegram-configs-collector?label=License&color=yellow)
-![GitHub Repo stars](https://img.shields.io/github/stars/soroushmirzaei/telegram-configs-collector?label=Stars&color=red&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/soroushmirzaei/telegram-configs-collector?label=Forks&color=blue&style=flat)
-[![Execute On Schedule](https://github.com/soroushmirzaei/telegram-configs-collector/actions/workflows/schedule.yml/badge.svg)](https://github.com/soroushmirzaei/telegram-configs-collector/actions/workflows/schedule.yml)
-[![Execute On Push](https://github.com/soroushmirzaei/telegram-configs-collector/actions/workflows/push.yml/badge.svg)](https://github.com/soroushmirzaei/telegram-configs-collector/actions/workflows/push.yml)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/ashah404/V2rayCollector?label=Last%20Commit&color=%2338914b)
+![GitHub](https://img.shields.io/github/license/ashah404/V2rayCollector?label=License&color=yellow)
+![GitHub Repo stars](https://img.shields.io/github/stars/ashah404/V2rayCollector?label=Stars&color=red&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/ashah404/V2rayCollector?label=Forks&color=blue&style=flat)
+[![Execute On Schedule](https://github.com/ashah404/V2rayCollector/actions/workflows/schedule.yml/badge.svg)](https://github.com/ashah404/V2rayCollector/actions/workflows/schedule.yml)
+[![Execute On Push](https://github.com/ashah404/V2rayCollector/actions/workflows/push.yml/badge.svg)](https://github.com/ashah404/V2rayCollector/actions/workflows/push.yml)
 
 ## Tutorial
 This is a guide for configuring domains by routing type in the `nekoray` and `nekobox` applications when using the `sing-box` core. To implement these domain settings, create new routes in either application and add the appropriate domains to the relevant `domains` section. Configure the outbound setting as `bypass`, `proxy`, or `block` according to the specifications provided for each domain category.
@@ -1616,44 +1616,44 @@ geosite:apple-ads
 Subscription links for configurations are organized according to protocol type and categorized into separate Telegram channels and subscription links. These links provide access to configurations based on specific protocol requirements.
 | **Protocol Type** | **Mixed Configurations** | **Telegram Channels** | **Subscription Links** |
 |:---:|:---:|:---:|:---:|
-| **Juicity Configurations** | [Subscription Link](https://github.com/ashahdevs/soroushmirzaei-telegram-configs-collector_-_2025-06-24_03-52-20/blob/main/subscribe/protocols/juicity) |
-| **Hysteria Configurations** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/hysteria) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/protocols/hysteria) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/hysteria) |
-| **Tuic Configurations** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/tuic) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/protocols/tuic) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/tuic) |
-| **Reality Configurations** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/reality) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/protocols/reality) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/reality) |
-| **Vless Configurations** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/protocols/vless) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/vless) |
-| **Vmess Configurations** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vmess) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/protocols/vmess) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/vmess) |
-| **Trojan Configurations** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/protocols/trojan) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/trojan) |
-| **Shadowsocks Configurations** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/protocols/shadowsocks) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/shadowsocks) |
-| **Mixed Type Configurations** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/channels) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/subscribe) |
+| **Juicity Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/juicity) |
+| **Hysteria Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/hysteria) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/hysteria) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/hysteria) |
+| **Tuic Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/tuic) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/tuic) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/tuic) |
+| **Reality Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/reality) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/reality) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/reality) |
+| **Vless Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/vless) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/vless) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/vless) |
+| **Vmess Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/vmess) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/vmess) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/vmess) |
+| **Trojan Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/trojan) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/trojan) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/trojan) |
+| **Shadowsocks Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/shadowsocks) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/shadowsocks) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/shadowsocks) |
+| **Mixed Type Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/splitted/mixed) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/splitted/channels) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/splitted/subscribe) |
 
 ## Network Type Subscription Links
 Subscription links for configurations are organized according to network type and categorized into separate Telegram channels and subscription links. These links facilitate access to configurations optimized for specific network architectures.
 | **Network Type** | **Mixed Configurations** | **Telegram Channels** | **Subscription Links** |
 |:---:|:---:|:---:|:---:|
-| **Google Remote Procedure Call (GRPC)** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/grpc) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/grpc) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/grpc) |
-| **Hypertext Transfer Protocol (HTTP)** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/http) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/http) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/http) |
-| **WebSocket Protocol (WS)** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/ws) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/ws) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/ws) |
- | **Transmission Control Protocol (TCP)** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/tcp) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/tcp) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/tcp) |
+| **Google Remote Procedure Call (GRPC)** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/networks/grpc) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/networks/grpc) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/networks/grpc) |
+| **Hypertext Transfer Protocol (HTTP)** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/networks/http) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/networks/http) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/networks/http) |
+| **WebSocket Protocol (WS)** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/networks/ws) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/networks/ws) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/networks/ws) |
+ | **Transmission Control Protocol (TCP)** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/networks/tcp) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/networks/tcp) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/networks/tcp) |
 
 ## Security Type Subscription Links
 Subscription links for configurations are organized according to security type and categorized into separate Telegram channels and subscription links. These links provide access to configurations with specific security implementations.
 | **Security Type** | **Mixed Configurations** | **Telegram Channels** | **Subscription Links** |
 |:---:|:---:|:---:|:---:|
-| **Transport Layer Security (TLS)** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/tls) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/security/tls) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/security/tls) |
-| **Non Transport Layer Security (Non-TLS)** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/non-tls) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/security/non-tls) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/security/non-tls) |
+| **Transport Layer Security (TLS)** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/security/tls) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/security/tls) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/security/tls) |
+| **Non Transport Layer Security (Non-TLS)** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/security/non-tls) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/security/non-tls) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/security/non-tls) |
 
 ## Internet Protocol Type Subscription Links
 Subscription links for configurations are organized according to internet protocol type and categorized into separate Telegram channels and subscription links. These links enable access to configurations designed for specific internet protocol versions.
 | **Internet Protocol Type** | **Mixed Configurations** | **Telegram Channels** | **Subscription Links** |
 |:---:|:---:|:---:|:---:|
-| **Internet Protocol Version 4 (IPV4)** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/layers/ipv4) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/layers/ipv4) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/layers/ipv4) |
-| **Internet Protocol Version 6 (IPV6)** | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/layers/ipv6) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/layers/ipv6) | [Subscription Link](https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/layers/ipv6) |
+| **Internet Protocol Version 4 (IPV4)** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/layers/ipv4) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/layers/ipv4) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/layers/ipv4) |
+| **Internet Protocol Version 6 (IPV6)** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/layers/ipv6) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/layers/ipv6) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/layers/ipv6) |
 
 ## Country Subscription Links
 Subscription links for configurations are organized according to country and provide access to specialized configurations for services that implement location-based restrictions. These configurations are particularly relevant for social media and artificial intelligence services that may restrict access or ban accounts when location changes are detected.'''
 
 stats = """## Stats
-[![Stars](https://starchart.cc/soroushmirzaei/telegram-configs-collector.svg?variant=adaptive)](https://starchart.cc/soroushmirzaei/telegram-configs-collector)
+[![Stars](https://starchart.cc/ashah404/V2rayCollector.svg?variant=adaptive)](https://github.com/ashah404/V2rayCollector)
 ## Activity
 ![Alt](https://repobeats.axiom.co/api/embed/6e88aa7d66986824532760b5b14120a22c8ca813.svg "Repobeats analytics image")"""
 
