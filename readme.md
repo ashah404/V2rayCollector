@@ -70,7 +70,7 @@ Subscription links for configurations are organized according to protocol type a
 | **Protocol Type** | **Mixed Configurations** | **Telegram Channels** | **Subscription Links** |
 |:---:|:---:|:---:|:---:|
 | **Juicity Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/juicity) |
-| **Hysteria Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/hysteria) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/hysteria) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/hysteria) |
+| **Hysteria Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/hysteria) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/hysteria) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/hysteria) |
 | **Tuic Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/tuic) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/tuic) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/tuic) |
 | **Reality Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/reality) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/reality) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/reality) |
 | **Vless Configurations** | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/protocols/vless) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/channels/protocols/vless) | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/subscribe/protocols/vless) |
@@ -165,6 +165,6 @@ Subscription links for configurations are organized according to country and pro
 | UY | Uruguay | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/uy/mixed) | UZ | Uzbekistan | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/uz/mixed) |
 | VN | Viet Nam | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/vn/mixed) | VG | Virgin Islands, British | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/vg/mixed) |
 ## Stats
-[![Stars](https://starchart.cc/ashah404/V2rayCollector.svg?variant=adaptive)](https://starchart.cc/ashah404/V2rayCollector)
+[![Stars](https://starchart.cc/ashah404/V2rayCollector.svg?variant=adaptive)](https://github.com/ashah404/V2rayCollector)
 ## Activity
 ![Alt](https://repobeats.axiom.co/api/embed/6e88aa7d66986824532760b5b14120a22c8ca813.svg "Repobeats analytics image")
