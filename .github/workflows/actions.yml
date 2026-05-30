@@ -3,8 +3,7 @@ name: run main.py
 on:
   workflow_dispatch:
   schedule:
-    # هر ۵ ساعت یک‌بار اجرا می‌شود
-    - cron: '0 */5 * * *'
+    - cron: '0 */2 * * *'
 
 permissions:
   contents: write
@@ -18,13 +17,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0 # برای بازسازی تاریخچه گیت و امکان push کردن ضروری است
+          fetch-depth: 0 
 
       - name: Set up Python
-        uses: actions/setup-python@v5 # ارتقا به نسخه v5 که پایدارتر است
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.11' # ارتقا نسخه پایتون برای سازگاری بهتر پکیج‌ها
-
+          python-version: '3.11' 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
