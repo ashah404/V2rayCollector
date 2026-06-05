@@ -160,11 +160,11 @@ Subscription links for configurations are organized according to country and pro
 | ES | Spain | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/es/mixed) | SE | Sweden | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/se/mixed) |
 | CH | Switzerland | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/ch/mixed) | SY | Syrian Arab Republic | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/sy/mixed) |
 | TW | Taiwan, Province of China | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/tw/mixed) | TH | Thailand | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/th/mixed) |
-| TR | Türkiye | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/tr/mixed) | UA | Ukraine | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/ua/mixed) |
-| AE | United Arab Emirates | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/ae/mixed) | GB | United Kingdom | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/gb/mixed) |
-| US | United States | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/us/mixed) | UY | Uruguay | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/uy/mixed) |
-| UZ | Uzbekistan | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/uz/mixed) | VN | Viet Nam | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/vn/mixed) |
-| VG | Virgin Islands, British | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/vg/mixed) |
+| TT | Trinidad and Tobago | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/tt/mixed) | TR | Türkiye | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/tr/mixed) |
+| UA | Ukraine | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/ua/mixed) | AE | United Arab Emirates | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/ae/mixed) |
+| GB | United Kingdom | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/gb/mixed) | US | United States | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/us/mixed) |
+| UY | Uruguay | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/uy/mixed) | UZ | Uzbekistan | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/uz/mixed) |
+| VN | Viet Nam | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/vn/mixed) | VG | Virgin Islands, British | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/vg/mixed) |
 ## Stats
 [![Stars](https://starchart.cc/ashah404/V2rayCollector.svg?variant=adaptive)](https://github.com/ashah404/V2rayCollector)
 ## Activity
