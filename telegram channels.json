@@ -954,6 +954,7 @@
     "openroutevpn",
     "opensstpvpn",
     "openvpn_wireguard",
+    "openvpnuser",
     "optvpn",
     "orgempirenet",
     "outline_ir",
