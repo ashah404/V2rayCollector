@@ -218,6 +218,7 @@
     "config_on",
     "config_proxy",
     "config_proxy_ir",
+    "config_room",
     "config_station",
     "config_v2ran",
     "config_v2ray",
