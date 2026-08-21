@@ -26,20 +26,23 @@ from title import check_modify_config, create_country, create_country_table, cre
 
 
 # Create the geoip-lite folder if it doesn't exist
-if not os.path.exists('./geoip-lite'):
-    os.mkdir('./geoip-lite')
+os.makedirs('./geoip-lite', exist_ok=True)
 
 if os.path.exists('./geoip-lite/geoip-lite-country.mmdb'):
-    os.remove('./geoip-lite/geoip-lite-country.mmdb')
+    try:
+        os.remove('./geoip-lite/geoip-lite-country.mmdb')
+    except Exception:
+        pass
 
 # Download the file and rename it
-url = 'https://git.io/GeoLite2-Country.mmdb'
-filename = 'geoip-lite-country.mmdb'
-wget.download(url, filename)
-
-
-# Move the file to the geoip folder
-os.rename(filename, os.path.join('./geoip-lite', filename))
+try:
+    url = 'https://git.io/GeoLite2-Country.mmdb'
+    filename = 'geoip-lite-country.mmdb'
+    wget.download(url, filename)
+    # Move the file to the geoip folder
+    os.rename(filename, os.path.join('./geoip-lite', filename))
+except Exception as e:
+    print(f"GeoLite download notice: {e}")
 
 
 # Clean up unmatched file
@@ -69,8 +72,8 @@ def get_absolute_paths(start_path):
             abs_paths.append(str(abs_path))
     return abs_paths
 
-dirs_list = ['./security', './protocols', './networks', './layers'
-            './subscribe', './splitted', './channels']
+dirs_list = ['./security', './protocols', './networks', './layers',
+             './subscribe', './splitted', './channels']
 
 if (int(jalali_current_datetime_update.day) == 1 and int(jalali_current_datetime_update.hour) == 0) or (int(jalali_current_datetime_update.day) == 15 and int(jalali_current_datetime_update.hour) == 0):
     print("The All Collected Configurations Cleared Based On Scheduled Day".title())
@@ -81,7 +84,6 @@ if (int(jalali_current_datetime_update.day) == 1 and int(jalali_current_datetime
             if not path.endswith('readme.md'):
                 with open(path, 'w') as file:
                     file.write('')
-                    file.close
             else:
                 continue
 
@@ -1113,6 +1115,14 @@ dnt_sign = "\U0001F6E1 TELEGRAM-CHANNEL \U0001F510 MTPROTO-PROXY \U0001F30D @NEX
 reality_dnt_sign, vless_dnt_sign, vmess_dnt_sign, trojan_dnt_sign, shadowsocks_dnt_sign = create_title(dnt_sign, port = 3080)
 
 
+# Ensure all target directories exist
+for target_dir in [
+    './splitted', './layers', './protocols', './security', './networks', './countries',
+    './subscribe/layers', './subscribe/protocols', './subscribe/security', './subscribe/networks',
+    './channels/layers', './channels/protocols', './channels/security', './channels/networks'
+]:
+    os.makedirs(target_dir, exist_ok=True)
+
 # Save configurations based on splitted and chunks
 for i in range(0, 10):
     if i < len(chunks):
@@ -1139,10 +1149,7 @@ for country in country_based_configs_dict.keys():
     if dnt_bool:
         country_based_configs_dict[country].insert(2, trojan_dnt_sign)
     country_based_configs_dict[country].append(trojan_dev_sign)
-    if not os.path.exists('./countries'):
-        os.mkdir('./countries')
-    if not os.path.exists(f'./countries/{country}'):
-        os.mkdir(f'./countries/{country}')
+    os.makedirs(f'./countries/{country}', exist_ok=True)
     with open(f'./countries/{country}/mixed', "w", encoding="utf-8") as file:
         file.write(base64.b64encode("\n".join(country_based_configs_dict[country]).encode("utf-8")).decode("utf-8"))
 
