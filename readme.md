@@ -167,6 +167,7 @@ Subscription links for configurations are organized according to country and pro
 | GB | United Kingdom | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/gb/mixed) | US | United States | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/us/mixed) |
 | UY | Uruguay | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/uy/mixed) | UZ | Uzbekistan | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/uz/mixed) |
 | VN | Viet Nam | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/vn/mixed) | VG | Virgin Islands, British | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/vg/mixed) |
+| VI | Virgin Islands, U.S. | [Subscription Link](https://github.com/ashah404/V2rayCollector/blob/main/countries/vi/mixed) | - | - | - |
 ## Stats
 [![Stars](https://starchart.cc/ashah404/V2rayCollector.svg?variant=adaptive)](https://github.com/ashah404/V2rayCollector)
 ## Activity
